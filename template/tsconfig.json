@@ -1,0 +1,24 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@/Api": ["./api"],
+      "@/Assets": ["./assets"],
+      "@/Assets/*": ["./assets/*"],
+      "@/DesignSystem/*": ["./ui/design-system/*"],
+      "@/Hooks": ["./ui/hooks"],
+      "@/Hocs": ["./ui/hocs"],
+      "@/Providers": ["./ui/providers"],
+      "@/Providers/*": ["./ui/providers/*"],
+      "@/Screens": ["./ui/screens"],
+      "@/Screens/*": ["./ui/screens/*"],
+      "@/Store": ["./store"],
+      "@/Store/*": ["./store/*"],
+      "@/Types": ["./types"],
+      "@/Utils/*": ["./utils/*"],
+    },
+    "rootDirs": ["src"],
+    "lib": ["dom", "ES2021.String"]
+  },
+}
