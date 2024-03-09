@@ -11,15 +11,7 @@ module.exports = {
     'import/order': [
       'error',
       {
-        groups: [
-          'builtin',
-          'external',
-          'internal',
-          'parent',
-          'sibling',
-          'object',
-          'index',
-        ],
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'object', 'index'],
         pathGroups: [
           {
             pattern: 'react',
@@ -47,4 +39,4 @@ module.exports = {
     ],
   },
   ignorePatterns: ['packages/**/dist'],
-};
+}
